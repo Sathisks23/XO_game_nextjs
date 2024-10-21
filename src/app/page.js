@@ -73,6 +73,7 @@ export default function homepage(){
  }
  
 function resumePlay(){
+    setCurrentSymbol('X')
     setWinner('')
     setTie('')
     setGameMove(0)
